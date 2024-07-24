@@ -1,0 +1,22 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+  pre_build:
+    commands:
+      - echo "Storing all the parameters from Parameter Store to .env file"
+      - aws ssm get-parameters-by-path --region us-east-1 --path "/your-project-name" --with-decryption --query "Parameters[*].[Name,Value]" --output text | awk -F'\t' '{gsub("/your-project-name/", "", $1); gsub(" ", "", $2); print $1 "=" $2}' > .env
+      - cat .env # Variables in Parameter Store
+      - cat .env.example #variables in .env.example file
+  #     - npm install
+  #     - npm run compareEnv # Compare .env and .env.example
+      - npm install pnpm -g
+  build:
+    commands:
+       - pnpm install
+       - pnpm run build
+artifacts:
+  files: 
+    - '**/*'
+  base-directory: 'dist'

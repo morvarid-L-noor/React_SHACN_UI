@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "dictionaryDefinitions": [
+    {
+      "name": "project-words",
+      "path": "./project-words.txt",
+      "addWords": true
+    }
+  ],
+  "allowCompoundWords": true,
+  "dictionaries": [],
+  "ignorePaths": [
+    "node_modules",
+    "/project-words.txt",
+    "coverage/**",
+    ".env.example",
+    "package.json",
+    "package-lock.json",
+    "dist",
+    "vite.config.ts",
+    "pnpm-lock.yaml",
+    "*.yml"
+  ],
+  "words": [],
+  "ignoreRegExpList": [],
+  "ignoreWords": [
+    "sonner",
+    "Verif.",
+    "reduxjs",
+    "svgr",
+    "signup",
+    "signin",
+    "BreadcrumbElipssis",
+    "addlDetails",
+    "redeemptionFee",
+    "cmdk",
+    "IKYC",
+    "resid",
+    "Incorp",
+    "Embla",
+    "embla",
+    "Shadcn"
+  ]
+}

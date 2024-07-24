@@ -1,0 +1,167 @@
+{
+  "buttons": {
+    "refresh": "Refresh",
+    "back": "Back",
+    "edit": "Edit",
+    "update": "Update",
+    "make_copy": "Make Copy",
+    "add": "Add",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "review": "Review",
+    "save": "Save",
+    "submit": "Submit",
+    "next": "Next",
+    "previous": "Previous",
+    "logout": "Logout",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "approve": "Approve",
+    "reject": "Reject",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "create": "Create",
+    "close": "Close",
+    "send": "Send",
+    "new": "New"
+  },
+  "settings": {
+    "page_title": "Settings",
+    "page_description": "Adjust preferences, review your KYC data and status, manage security settings, MultiSig Contracts and Wallet Connections",
+    "profile": "Profile"
+  },
+  "profile": {
+    "page_title": "Profile",
+    "page_description": "Manage your basic account information. You can update your profile details, including name, email, password, and contact information.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "zip": "Zip",
+    "country": "Country",
+    "save": "Save",
+    "change_password": "Change Password"
+  },
+  "edit_profile": {
+    "page_title": "Edit Profile",
+    "page_description": "Manage your basic account information. You can update your profile details and contact information."
+  },
+  "wallets": {
+    "page_description": "Current connected wallets are shown below. You can connect one wallet per blockchain.",
+    "delete_wallet_modal_description": "You have successfully removed the wallet address.",
+    "add_wallet_modal_description": "You have successfully added a wallet address.",
+    "delete_wallet_message_warning": "Do you want to delete this wallet?"
+  },
+  "newWalletModal": {
+    "page_title": "Wallet Provider",
+    "field_title": "Wallet Address",
+    "field_description": "Enter the wallet address you want to integrate."
+  },
+  "walletDetails": {
+    "page_title": "Wallet Details",
+    "page_description": "Current connected wallets are shown below. You can connect one wallet per blockchain.",
+    "table_title": "MetaMask for Avalanche Fuji",
+    "add_new": "Add New",
+    "wallet_address": "Wallet Address",
+    "date_time": "Date Time",
+    "status": "Status",
+    "add_wallet_modal_title": "Wallet Provider"
+  },
+  "signin": {
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "forgot": "Forgot Password",
+    "register": "Register"
+  },
+  "asset_overview": {
+    "page_title": "Asset Overview",
+    "page_description": "View and manage your assets or create a new one",
+    "create": "Create",
+    "new_asset": "New Asset",
+    "asset_card": {
+      "open_button": "Open for Investment",
+      "public_page": "Pub. Page",
+      "kyc_verification": "KYC Verif.",
+      "read_more": "more"
+    }
+  },
+  "asset_details": {
+    "page_title": "Asset Details",
+    "page_description": "Review asset details, public page data and KYC template status",
+    "asset_name": "Asset Name",
+    "ticker": "Ticker",
+    "asset_class": "Asset Class",
+    "issuer": "Issuer",
+    "token_symbol": "Token Symbol",
+    "decimal": "Decimal",
+    "tokens": "Tokens",
+    "investment": "Investment",
+    "investors": "Investors",
+    "kyc_applications": "KYC Applications",
+    "transactions": "Transactions",
+    "amount_in_circulation": "Amount in Circulation",
+    "available": "Available",
+    "issuance_date": "Issuance Date",
+    "deployment_transaction": "Deployment Transaction",
+    "contract_address": "Contract Address",
+    "asset_note": "This MultiSig Contract address has the roles of Asset Protection Manager, Token Supply Manager and Treasure.",
+    "public_page_label": "Public Page",
+    "kyc_template": "KYC Template",
+    "completed": "Completed",
+    "pending": "Pending",
+    "public_page": {
+      "title": "Public Page",
+      "page_description": "Update the information and media shown in your asset’s public page. Potential investors will be able to see all this information"
+    }
+  },
+  "transactions": {
+    "page_title": "Transactions",
+    "page_description": "This list shows a summary of all transactions, like acquiring and redemptions, as well related information. For more details, click on any of the transactions below.",
+    "transaction_table_title": "Details",
+    "transaction_table_col_name": "Name",
+    "transaction_table_col_asset": "Asset",
+    "transaction_table_col_date_time": "Date & Time",
+    "transaction_table_col_type": "Type",
+    "transaction_table_col_status": "Status",
+    "transaction_table_col_description": "Description",
+    "transaction_table_col_tokens": "Tokens",
+    "transaction_table_export_btn": "Export in CSV",
+    "transaction_table_filter_btn": "Filter",
+    "transaction_summary_title": "Summary",
+    "transaction_summary_total_redeem": "Total Redeemed",
+    "transaction_summary_total_acquired": "Total Acquired",
+    "transaction_summary_total_transactions": "Total Transactions"
+  },
+  "filter": {
+    "title": "Filter",
+    "search_placeholder": "Asset name, request/asset, collection"
+  },
+  "kycApplication": {
+    "page_title": "KYC Applications",
+    "page_sub_title": "List containing investor’s KYC verification requests and their status. Click on Review to see each applicant detailed KYC data and approve or reject verification requests.",
+    "no_data": "There are no KYC verification requests yet"
+  },
+  "opportunities": {
+    "page_title": "Browse Investment Opportunities",
+    "page_description": "List of opportunities available for investment. Click on any of the opportunities below to see more details.",
+    "no_data": "There are no opportunities available for investment yet",
+    "opportunity_card": {
+      "apply_button": "Apply for Asset",
+      "public_page": "Pub. Page",
+      "kyc_verification": "KYC Verif."
+    }
+  },
+  "errors": {
+    "ORGANIZATION_ALREADY_EXISTS": "Organization already exists",
+    "CORPORATE_ID_NOT_PRESENT_IN_USER": "Corporate ID not present in user",
+    "OTP_EXPIRED_OR_INCORRECT": "OTP expired or incorrect",
+    "WEBSITE_URL_ALREADY_EXISTS": "Website URL already exists",
+    "CANNOT_DELETE_ISSUER_FROM_ORGANIZATION": "Can not delete an issuer from organization",
+    "undefined": "An error occurred",
+    "WALLET_ADDRESS_ALREADY_EXISTS": "Wallet address already exists"
+  }
+}
